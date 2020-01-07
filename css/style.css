@@ -5927,6 +5927,12 @@ button {
   z-index: 9998;
   display: none;
 }
+.word_count {
+  margin-top: 5px;
+  color: #717f8c;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #efefef;
+}
 @media (max-width: 768px) {
   .cover-inner {
     transform: translate(-50%, -70%);
@@ -6128,7 +6134,7 @@ button {
 }
 .article-entry {
   font-size: 110%;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   color: #403e3e;
 }
 .article-entry::before,
